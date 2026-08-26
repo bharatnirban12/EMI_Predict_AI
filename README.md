@@ -19,6 +19,12 @@ The system provides two complementary predictions for an EMI/loan application:
 
 The application is designed with a Streamlit frontend and FastAPI backend.
 
+## Live Demo & Endpoints
+
+- **Frontend (Streamlit)**: [https://bharatnirban12-emi-predict-ai-streamlit-appapp-ohdlw3.streamlit.app/](https://bharatnirban12-emi-predict-ai-streamlit-appapp-ohdlw3.streamlit.app/)
+- **Backend API (FastAPI / Render)**: [https://emi-predict-ai-27dj.onrender.com](https://emi-predict-ai-27dj.onrender.com)
+- **API Documentation (Swagger UI)**: [https://emi-predict-ai-27dj.onrender.com/docs](https://emi-predict-ai-27dj.onrender.com/docs)
+
 ## Model Performance
 
 ### Classification — Tuned LightGBM
