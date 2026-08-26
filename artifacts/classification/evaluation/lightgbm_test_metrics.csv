@@ -1,0 +1,2 @@
+model,dataset,accuracy,weighted_precision,weighted_recall,weighted_f1,macro_f1
+LightGBM,test,0.9737215787582761,0.971615986156201,0.9737215787582761,0.9718550333725479,0.8756490179099181

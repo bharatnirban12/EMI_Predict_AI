@@ -1,0 +1,57 @@
+rank,feature,importance
+1,numerical__requested_amount_per_month,9901
+2,numerical__disposable_income,8680
+3,numerical__bank_balance,5403
+4,numerical__credit_score,5347
+5,numerical__expense_to_income_ratio,4771
+6,numerical__requested_amount_to_income_ratio,4076
+7,numerical__years_of_employment,2916
+8,numerical__emergency_fund,2770
+9,numerical__monthly_salary,2641
+10,numerical__requested_amount,2460
+11,numerical__requested_tenure,2421
+12,numerical__current_emi_amount,2051
+13,numerical__groceries_utilities,1986
+14,numerical__other_monthly_expenses,1983
+15,numerical__travel_expenses,1974
+16,numerical__total_monthly_living_expenses,1679
+17,numerical__emi_to_income_ratio,1536
+18,numerical__total_monthly_expenses,1484
+19,numerical__monthly_rent,1347
+20,numerical__total_education_expenses,1282
+21,numerical__school_fees,913
+22,categorical__house_type_Rented,645
+23,categorical__employment_type_Government,547
+24,numerical__college_fees,539
+25,numerical__age,494
+26,numerical__family_size,458
+27,categorical__emi_scenario_Vehicle EMI,414
+28,categorical__emi_scenario_Personal Loan EMI,382
+29,categorical__employment_type_Private,376
+30,categorical__employment_type_Self-employed,303
+31,categorical__emi_scenario_Home Appliances EMI,192
+32,categorical__house_type_Own,176
+33,categorical__existing_loans_Yes,172
+34,categorical__company_type_Mid-size,172
+35,categorical__education_Graduate,167
+36,categorical__company_type_Large Indian,157
+37,categorical__house_type_Family,145
+38,categorical__company_type_Startup,128
+39,categorical__company_type_MNC,127
+40,categorical__education_Post Graduate,124
+41,categorical__emi_scenario_Education EMI,119
+42,categorical__existing_loans_No,119
+43,categorical__education_Professional,117
+44,categorical__gender_Female,114
+45,categorical__gender_Male,108
+46,categorical__marital_status_Married,93
+47,categorical__education_High School,91
+48,categorical__emi_scenario_E-commerce Shopping EMI,89
+49,categorical__company_type_Small,75
+50,categorical__gender_M,44
+51,categorical__marital_status_Single,29
+52,categorical__gender_MALE,29
+53,categorical__gender_male,17
+54,categorical__gender_female,9
+55,categorical__gender_FEMALE,7
+56,categorical__gender_F,1

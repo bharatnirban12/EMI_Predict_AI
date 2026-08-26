@@ -1,0 +1,89 @@
+# ========================================================
+# EMIPredict_AI Project .gitignore
+# ========================================================
+
+# 1. Datasets
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Keep directory placeholders if present.
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+
+# 2. Production Model Artifacts
+# Production artifacts are intentionally tracked because
+# Render/FastAPI needs them for inference.
+#
+# Only model-selection experiment outputs remain ignored.
+artifacts/model_selection/*
+!artifacts/model_selection/.gitkeep
+
+# Ignore massive Random Forest models (exceeds GitHub 100MB limit)
+artifacts/classification/random_forest*.pkl
+artifacts/regression/random_forest*.pkl
+
+
+# 3. Python Virtual Environment
+myenv/
+.venv/
+venv/
+env/
+
+
+# 4. MLflow Experiment Tracking
+mlruns/
+
+
+# 5. Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+
+# 6. Generated Reports
+reports/**/*.csv
+
+
+# 7. Local Testing Artifacts
+api_test_payload.json
+
+
+# 8. Python Caches and Test Caches
+.pytest_cache/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# 9. Jupyter Notebook Checkpoints
+notebooks/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+
+# 10. OS Generated Files
+.DS_Store
+Thumbs.db
+
+
+# 11. IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# 12. Temporary Files
+*.tmp
+*.temp
+*.bak
+
+
+# 13. Environment / Secret Files
+.env
+.env.*
+!.env.example

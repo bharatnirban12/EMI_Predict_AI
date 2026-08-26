@@ -1,0 +1,98 @@
+{
+    "dataset": {
+        "row_count": 404800,
+        "column_count": 27,
+        "duplicate_row_count": 0
+    },
+    "schema": {
+        "columns": [
+            "age",
+            "gender",
+            "marital_status",
+            "education",
+            "monthly_salary",
+            "employment_type",
+            "years_of_employment",
+            "company_type",
+            "house_type",
+            "monthly_rent",
+            "family_size",
+            "dependents",
+            "school_fees",
+            "college_fees",
+            "travel_expenses",
+            "groceries_utilities",
+            "other_monthly_expenses",
+            "existing_loans",
+            "current_emi_amount",
+            "credit_score",
+            "bank_balance",
+            "emergency_fund",
+            "emi_scenario",
+            "requested_amount",
+            "requested_tenure",
+            "emi_eligibility",
+            "max_monthly_emi"
+        ],
+        "input_columns": [
+            "age",
+            "gender",
+            "marital_status",
+            "education",
+            "monthly_salary",
+            "employment_type",
+            "years_of_employment",
+            "company_type",
+            "house_type",
+            "monthly_rent",
+            "family_size",
+            "dependents",
+            "school_fees",
+            "college_fees",
+            "travel_expenses",
+            "groceries_utilities",
+            "other_monthly_expenses",
+            "existing_loans",
+            "current_emi_amount",
+            "credit_score",
+            "bank_balance",
+            "emergency_fund",
+            "emi_scenario",
+            "requested_amount",
+            "requested_tenure"
+        ],
+        "classification_target": "emi_eligibility",
+        "regression_target": "max_monthly_emi"
+    },
+    "targets": {
+        "classification_target": "emi_eligibility",
+        "classification_distribution": [
+            {
+                "class": "Not_Eligible",
+                "count": 312868,
+                "percentage": 77.2895256916996
+            },
+            {
+                "class": "Eligible",
+                "count": 74444,
+                "percentage": 18.390316205533598
+            },
+            {
+                "class": "High_Risk",
+                "count": 17488,
+                "percentage": 4.320158102766798
+            }
+        ],
+        "regression_target": "max_monthly_emi",
+        "regression_summary": {
+            "count": 404800.0,
+            "mean": 6763.602156101779,
+            "std": 7741.263317050573,
+            "min": 500.0,
+            "25%": 500.0,
+            "50%": 4211.2,
+            "75%": 9792.0,
+            "max": 91040.4
+        }
+    }
+}

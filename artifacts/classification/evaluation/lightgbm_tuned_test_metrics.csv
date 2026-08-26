@@ -1,0 +1,2 @@
+model,dataset,records,transformed_features,accuracy,weighted_precision,weighted_recall,weighted_f1,macro_f1
+lightgbm_tuned,test,58451,56,0.9787343244769123,0.9778130697855618,0.9787343244769123,0.9781404996877042,0.9054802297529013

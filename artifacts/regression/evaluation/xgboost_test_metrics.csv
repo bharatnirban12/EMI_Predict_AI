@@ -1,0 +1,2 @@
+model,dataset,mae,rmse,r2,mae_requirement_pass,r2_requirement_pass
+XGBoost Regressor,test,185.7806466064617,454.565952410315,0.9963788801693113,True,True

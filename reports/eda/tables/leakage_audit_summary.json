@@ -1,0 +1,99 @@
+{
+  "purpose": "Empirical investigation of predictor-target relationships and potential proxy relationships.",
+  "target_generation_formula_available": false,
+  "interpretation_warning": "Strong statistical relationships do not by themselves prove target leakage.",
+  "top_regression_relationships": [
+    {
+      "feature": "disposable_income",
+      "valid_records": 402807,
+      "pearson_correlation": 0.3864810700300509,
+      "spearman_correlation": 0.8214640080317092,
+      "univariate_linear_r2": 0.149367617491573,
+      "absolute_pearson": 0.3864810700300509,
+      "absolute_spearman": 0.8214640080317092
+    },
+    {
+      "feature": "expense_to_income_ratio",
+      "valid_records": 402807,
+      "pearson_correlation": -0.27615802993027694,
+      "spearman_correlation": -0.7626683746468054,
+      "univariate_linear_r2": 0.07626325749497187,
+      "absolute_pearson": 0.27615802993027694,
+      "absolute_spearman": 0.7626683746468054
+    },
+    {
+      "feature": "monthly_salary",
+      "valid_records": 402807,
+      "pearson_correlation": 0.3792095224062048,
+      "spearman_correlation": 0.49840406057956765,
+      "univariate_linear_r2": 0.14379986188354144,
+      "absolute_pearson": 0.3792095224062048,
+      "absolute_spearman": 0.49840406057956765
+    },
+    {
+      "feature": "total_education_expenses",
+      "valid_records": 404800,
+      "pearson_correlation": -0.3270732985131511,
+      "spearman_correlation": -0.47191256652751057,
+      "univariate_linear_r2": 0.1069769426002729,
+      "absolute_pearson": 0.3270732985131511,
+      "absolute_spearman": 0.47191256652751057
+    },
+    {
+      "feature": "total_monthly_living_expenses",
+      "valid_records": 404800,
+      "pearson_correlation": 0.48767913779954003,
+      "spearman_correlation": 0.43825905883347677,
+      "univariate_linear_r2": 0.23783094144490247,
+      "absolute_pearson": 0.48767913779954003,
+      "absolute_spearman": 0.43825905883347677
+    },
+    {
+      "feature": "groceries_utilities",
+      "valid_records": 404800,
+      "pearson_correlation": 0.4846946279128971,
+      "spearman_correlation": 0.43530193164107855,
+      "univariate_linear_r2": 0.2349288823276212,
+      "absolute_pearson": 0.4846946279128971,
+      "absolute_spearman": 0.43530193164107855
+    },
+    {
+      "feature": "emi_to_income_ratio",
+      "valid_records": 402807,
+      "pearson_correlation": -0.28872696501157163,
+      "spearman_correlation": -0.42500725170908293,
+      "univariate_linear_r2": 0.08336326032479291,
+      "absolute_pearson": 0.28872696501157163,
+      "absolute_spearman": 0.42500725170908293
+    },
+    {
+      "feature": "travel_expenses",
+      "valid_records": 404800,
+      "pearson_correlation": 0.4409480463200894,
+      "spearman_correlation": 0.3937509520158218,
+      "univariate_linear_r2": 0.19443517955350276,
+      "absolute_pearson": 0.4409480463200894,
+      "absolute_spearman": 0.3937509520158218
+    },
+    {
+      "feature": "college_fees",
+      "valid_records": 404800,
+      "pearson_correlation": -0.25884222849396754,
+      "spearman_correlation": -0.3808661494154867,
+      "univariate_linear_r2": 0.06699929925172221,
+      "absolute_pearson": 0.25884222849396754,
+      "absolute_spearman": 0.3808661494154867
+    },
+    {
+      "feature": "bank_balance",
+      "valid_records": 400408,
+      "pearson_correlation": 0.45866551437838216,
+      "spearman_correlation": 0.3653254663805291,
+      "univariate_linear_r2": 0.21037405407998577,
+      "absolute_pearson": 0.45866551437838216,
+      "absolute_spearman": 0.3653254663805291
+    }
+  ],
+  "high_risk_numeric_records": [],
+  "classification_categorical_rows": 96
+}
