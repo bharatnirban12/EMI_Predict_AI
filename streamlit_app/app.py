@@ -14,7 +14,7 @@ import requests
 import streamlit as st
 
 
-DEFAULT_API_URL = "http://127.0.0.1:8000"
+DEFAULT_API_URL = "https://emi-predict-ai-27dj.onrender.com"
 
 API_URL = os.getenv(
     "EMI_API_URL",
