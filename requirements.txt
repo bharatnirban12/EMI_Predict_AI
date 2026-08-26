@@ -108,6 +108,8 @@ nest-asyncio==1.6.0
 notebook==7.5.1
 notebook_shim==0.2.4
 numpy==1.26.4
+lightgbm
+xgboost
 opentelemetry-api==1.40.0
 opentelemetry-proto==1.40.0
 opentelemetry-sdk==1.40.0
